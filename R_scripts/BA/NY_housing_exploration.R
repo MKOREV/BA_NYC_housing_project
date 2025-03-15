@@ -1,0 +1,29 @@
+# BA data exploration NYC HOUSING 
+
+#Load csv downloaded from kaggle: https://www.kaggle.com/datasets/nelgiriyewithana/new-york-housing-market?resource=download
+
+NY_housing <- read.csv("~/Electives/Business Analytics/Group_project/Data/NY-House-Dataset.csv")
+View(NY_housing)
+
+# I notice that column Bath is number with .0000 not just 1,2,3.
+# Columns good for our project: Type, Price, Beds, Bath, Propertysqft and something with street/neighboorhood but we have to create
+# In the addresses and streets formatting is bit odd sometimes with #
+
+#Summaries of numerical columns
+
+summary(NY_housing$PRICE)
+sd(NY_housing$PRICE)
+
+#Formatting of numbers is with scientific notation
+#use this https://www.datakwery.com/post/2020-07-11-scientific-notation-in-r/
+###options(scipen=999)
+###format(summary(NY_housing$PRICE), big.mark = ",") # using big.mark to add commas
+
+summary(NY_housing$PROPERTYSQFT)
+sd(NY_housing$PROPERTYSQFT)
+
+#  Both variables might have outliers bc SD is larger than Mean
+
+#Plot for Numerical variables
+hist(NY_housing$PRICE)
+boxplot(NY_housing$PRICE)

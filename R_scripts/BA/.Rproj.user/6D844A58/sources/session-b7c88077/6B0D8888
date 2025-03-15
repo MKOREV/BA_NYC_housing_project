@@ -1,0 +1,27 @@
+{
+    "id": "6B0D8888",
+    "path": "~/Electives/Business Analytics/Group_project/R_scripts/BA/NY_housing_exploration.R",
+    "project_path": "NY_housing_exploration.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1740662928392.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "14,20",
+        "scrollLine": "2"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1740664314,
+    "encoding": "ISO8859-1",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1742054670498,
+    "read_only": false,
+    "read_only_alternatives": []
+}
